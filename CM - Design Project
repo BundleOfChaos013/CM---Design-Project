@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width+device-width, initial-scale=1">
+        <title> </title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="sun">
+            <a href="index.html"><div class="home"></div></a>
+            <a href="OT8.html"><div class="OT8"></div></a>
+            <a href="About.html"><div class="About"></div></a>
+            <a href="A+A.html"><div class="AA"></div></a>
+            <a href="STAYprofile.html"><div class="StayProfile"></div></a>
+            </div>
+
+        </div>
+
+        <br><br>
+        <h2>A little summary</h2>
+        <br>
+        <p class="summary">This is a fansite about Stray Kids, a K-Pop boygroup located in South Korea. They debuted on March 25, 2018. This is a fansite created by me, hoping to share Stray Kids with more people around the world. Stray Kids (often abbreviated as SKZ) have touched people's hearts with their music, saving many lives. This is my way on giving back on what Stray Kids has done for me. </p>
+        <br>
+        <div class="heartimg">
+        <img src="Seungmin heart.jpg" alt="Seungmin holding a red heart plush" height="300" width="300">
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Stray Kids</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="OT8.html">Members</a></li>
+                <li><a href="A+A.html">Awards and Acheivements</a></li>
+                <li><a href="STAYprofile.html">STAY Profile</a></li>
+            </ul>
+        </nav>
+        <h2>About Stray Kids</h2>
+        <p class="about">Stray Kids is a K-Pop boygroup created through the survival show "Stray Kids" created by JYP entertainment. They debuted as 9 on March 25th, 2018. They remain as 8 today, one of the members having left in 2019. They are often known for their unique sound, shocking certain fans due to the vast difference from typical K-Pop.</p>
+        <img class="centre1" src="Stray Kids 0801 planes.jpg" alt="All Stray Kids members facing away while throwing paper planes in their 0801 MV" width="300px" height="170px">
+        <p class="about">They are a self-produced group, creating and producing all their songs on their own, primarily written by 3RACHA (Bangchan, Changbin, and HAN). The group has done tours in most continents, and are hoping to be able to see STAYs all around the world! STAY is their fan name, and they have a little mascot created in early 2026 for their fans.</p>
+        <img class="centre1" src="STAY.jpg" alt="mascot of STAY" height="175" width="150">
+        <br><br>
+        <p class="about">This isn't some official site, I just made this for fun! Though I am updating it often as I can!</p>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Members</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="OT8.html">Members</a></li>
+                <li><a href="A+A.html">Awards and Acheivements</a></li>
+                <li><a href="STAYprofile.html">STAY Profile</a></li>
+            </ul>
+        </nav>
+        <br>
+        <div class="member-tabs">
+
+        <h2>About the members</h2>
+        <br>
+        <p>This is a page about the members of Stray Kids, with a 3D model of their SKZOO (personal mascot)</p>
+        <br>
+
+        <!--Nav bar buttons-->
+            <div class="tab-menu">
+                <button class="tab-link active" onclick="openMember(event, 'Chan')">Chan</button>
+                <button class="tab-link" onclick="openMember(event, 'Leeknow')">Lee Know</button>
+                <button class="tab-link" onclick="openMember(event, 'Changbin')">Changbin</button>
+                <button class="tab-link" onclick="openMember(event, 'Hyunjin')">Hyunjin</button>
+                <button class="tab-link" onclick="openMember(event, 'Han')">Han</button>
+                <button class="tab-link" onclick="openMember(event, 'Felix')">Felix</button>
+                <button class="tab-link" onclick="openMember(event, 'Seungmin')">Seungmin</button>
+                <button class="tab-link" onclick="openMember(event, 'IN')">IN</button>
+            </div>
+
+
+        <!--Member sections-->
+            <!--Bangchan-->
+            <div id="Chan" class="tab-content" style="display:block;">
+                <h3>Bang Chan</h3>
+                <div class="section1">
+                        <p>Bangchan is the leader of Stray Kids, and the oldest. He is also a producer as a part of 3RACHA with Han and Changbin. He was born on October 3rd, 1997, making him 28. He was born in Australia, but moved to South Korea on April 11th, 2011, at the age of 13 and he debuted 7 years later at the age of 20.
+                        </p>
+                        <img src="Bangchan.jpg" alt="Picture of Bangchan holding a Wolfchan" style="float: right; margin-left: 20px;">
+                </div>
+                <p>His SKZOO is Wolfchan, a wolf</p>
+                <div class="sketchfab-embed-wrapper"> <iframe title="Stray Kids - SKZOO Wolfchan Cushion" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/ed38d6ef5fe548eca732bcb8bb7cd086/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/stray-kids-skzoo-wolfchan-cushion-ed38d6ef5fe548eca732bcb8bb7cd086?utm_medium=embed&utm_campaign=share-popup&utm_content=ed38d6ef5fe548eca732bcb8bb7cd086" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Stray Kids - SKZOO Wolfchan Cushion </a> by <a href="https://sketchfab.com/ssejann?utm_medium=embed&utm_campaign=share-popup&utm_content=ed38d6ef5fe548eca732bcb8bb7cd086" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> ssejann </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=ed38d6ef5fe548eca732bcb8bb7cd086" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+            </div>
+
+            <!--Lee Know-->
+            <div id="Leeknow" class="tab-content">
+                <h3>Lee Know</h3>
+                <div class="section1">
+                        <p>Lee Know is the second oldest of Stray Kids. He is a part of DanceRacha with Hyunjin and Felix. He was born on October 25th, 1998, making him 27. He used to be a backup dancer, evengoing with BTS on their Japan tour, before realizing he wanted to be a singer and was a trainee for one year before debuting in Stray Kids. </p>
+                        <img src="Lee Know.jpg" alt="Picture of Lee Know holding a Leebit" style="float: right; margin-left: 20px;">
+                </div>
+                <p>His SKZOO is Leebit, a rabbit</p>
+                <div class="sketchfab-embed-wrapper"> <iframe title="Stray Kids - SKZOO Leebit Cushion" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/d5486bc2c70b4a1e8e3ebc43ec746385/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/stray-kids-skzoo-leebit-cushion-d5486bc2c70b4a1e8e3ebc43ec746385?utm_medium=embed&utm_campaign=share-popup&utm_content=d5486bc2c70b4a1e8e3ebc43ec746385" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Stray Kids - SKZOO Leebit Cushion </a> by <a href="https://sketchfab.com/ssejann?utm_medium=embed&utm_campaign=share-popup&utm_content=d5486bc2c70b4a1e8e3ebc43ec746385" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> ssejann </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=d5486bc2c70b4a1e8e3ebc43ec746385" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+            </div>
+
+            <!--Changbin-->
+            <div id="Changbin" class="tab-content">
+                <h3>Changbin</h3>
+                <div class="section2">
+                        <p>Changbin is the third oldest, and is often known for his sharp raps in Stray Kids songs. He is a producer, as a part of 3RACHA with Bangchan and Han. He was born on August 11th, 1999, making him 26. His stage name for 3RACHA is SPEARB. He was a trainee at JYP for 2 years before debuting. He is currently credited for 201 songs on the Korea Music Copyright Association.</p>
+                        <img src="Changbin.jpg" alt="Picture of Changbin holding a Dwaekki" style="float: right; margin-left: 20px;">
+                </div>
+
+                <p>His SKZOO is Dwaekki, a mix of a pig and a rabbit</p>
+                <div class="sketchfab-embed-wrapper"> <iframe title="Stray Kids - SKZOO Dwaekki Cushion" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/6ea917b89ab54c8a83b22bf7e774a69b/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/stray-kids-skzoo-dwaekki-cushion-6ea917b89ab54c8a83b22bf7e774a69b?utm_medium=embed&utm_campaign=share-popup&utm_content=6ea917b89ab54c8a83b22bf7e774a69b" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Stray Kids - SKZOO Dwaekki Cushion </a> by <a href="https://sketchfab.com/ssejann?utm_medium=embed&utm_campaign=share-popup&utm_content=6ea917b89ab54c8a83b22bf7e774a69b" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> ssejann </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=6ea917b89ab54c8a83b22bf7e774a69b" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+            </div>
+
+            <!--Hyunjin-->
+            <div id="Hyunjin" class="tab-content">
+                <h3>Hyunjin</h3>
+                <div class="section3">
+                        <p>Hyunjin is the youngest of the hyung line of Stray Kids, being born on March 20th, 2000, making him 26. He is a part of DanceRacha, along with Lee Know and Felix. He was born in Seoul, South Korea but lied in Las Vegas for a short time when he was 6-7 years old. He is known as the artist of the group, due to his amazing art skills.</p>
+                        <img src="Hyunjin.jpg" alt="Picture of Hyunjin holding a Jinret" style="float: right; margin-left: 20px;">
+                </div>
+
+                <p>His SKZOO is Jinret, a ferret</p>
+                <div class="sketchfab-embed-wrapper"> <iframe title="Stray Kids - SKZOO Jiniret Cushion" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/2ed9babe43cd48bc8a9610323b14183d/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/stray-kids-skzoo-jiniret-cushion-2ed9babe43cd48bc8a9610323b14183d?utm_medium=embed&utm_campaign=share-popup&utm_content=2ed9babe43cd48bc8a9610323b14183d" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Stray Kids - SKZOO Jiniret Cushion </a> by <a href="https://sketchfab.com/ssejann?utm_medium=embed&utm_campaign=share-popup&utm_content=2ed9babe43cd48bc8a9610323b14183d" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> ssejann </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=2ed9babe43cd48bc8a9610323b14183d" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+            </div>
+
+            <!--Han-->
+            <div id="Han" class="tab-content">
+                <h3>Han</h3>
+                <div class="section3">
+                        <p>Han is the oldest of the maknae line, being the 4th youngest. He was born on September 14th, 2000, making him 25. He is a part of 3RACHA with Bangchan and Changbin. Han is also known with the sub-group "Sunshine twins" with Felix (due to their close birthdays). He is known of the ace of Stray Kids due to his rapping and singing skills, as well as producing many songs for the group. Han was born in South Korea used to live and study in Malaysia before getting into JYP and starting his artist career.</p>
+                        <img src="Han.jpg" alt="Picture of Han holding a Han Quokka" style="float: right; margin-left: 20px;">
+                </div>
+
+                <p>His SKZOO is Han Quokka, a quokka (which matches him perfectly)</p>
+                <div class="sketchfab-embed-wrapper"> <iframe title="Stray Kids - SKZOO Han Quokka Cushion" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/bd89c28e97c941199b4d8eddccde8a8a/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/stray-kids-skzoo-han-quokka-cushion-bd89c28e97c941199b4d8eddccde8a8a?utm_medium=embed&utm_campaign=share-popup&utm_content=bd89c28e97c941199b4d8eddccde8a8a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Stray Kids - SKZOO Han Quokka Cushion </a> by <a href="https://sketchfab.com/ssejann?utm_medium=embed&utm_campaign=share-popup&utm_content=bd89c28e97c941199b4d8eddccde8a8a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> ssejann </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=bd89c28e97c941199b4d8eddccde8a8a" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+            </div>
+
+            <!--Felix-->
+            <div id="Felix" class="tab-content">
+                <h3>Felix</h3>
+                <div class="section1">
+                        <p>Felix is the third youngest member of Stray Kids, being born on September 15th 2000, making him 25. He is a part of DanceRacha with Lee Know and Hyunjin. He is also a part of the sub-group "Sunshine twins" with Han (due to their close birthdays). He was born in Australia and lived there until he was scouted on Facebook in 2016. He went to South Korea for a JYP audition and got in, debuting later in 2018 with Stray Kids.</p>
+                        <img src="Felix.jpg" alt="Picture of Felix holding a BbokAri" style="float: right; margin-left: 20px;">
+                </div>
+
+                <p>His SKZOO is BbokAri, a chicken</p>
+                <div class="sketchfab-embed-wrapper"> <iframe title="Stray Kids - SKZOO Bokkari Cushion" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/950131140b134ea4a53d9257af880360/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/stray-kids-skzoo-bokkari-cushion-950131140b134ea4a53d9257af880360?utm_medium=embed&utm_campaign=share-popup&utm_content=950131140b134ea4a53d9257af880360" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Stray Kids - SKZOO Bokkari Cushion </a> by <a href="https://sketchfab.com/ssejann?utm_medium=embed&utm_campaign=share-popup&utm_content=950131140b134ea4a53d9257af880360" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> ssejann </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=950131140b134ea4a53d9257af880360" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+            </div>
+
+            <!--Seungmin-->
+            <div id="Seungmin" class="tab-content">
+                <h3>Seungmin</h3>
+                <div class="section1">
+                        <p>Seungmin is the second youngest of Stray Kids, born on September 22, 2000, making him 25. He is a part of VocalRacha with I.N. Seungmin was a trainee for one year after winning second place in JYP's 13th open audition. He used to dream of being a baseball player before his singing career. He is most often known as the main vocalist of the group. He is often compared to a puppy with his round features and boba-like eyes.</p>
+                        <img src="Seungmin.jpg" alt="Picture of Seungmin holding a PuppyM" style="float: right; margin-left: 20px;">
+                </div>
+
+                <p>His SKZOO is a PuppyM, a puppy</p>
+                <div class="sketchfab-embed-wrapper"> <iframe title="Stray Kids - SKZOO PuppyM Cushion" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/2e57e6986bf149fa93f89f7b6aa0e087/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/stray-kids-skzoo-puppym-cushion-2e57e6986bf149fa93f89f7b6aa0e087?utm_medium=embed&utm_campaign=share-popup&utm_content=2e57e6986bf149fa93f89f7b6aa0e087" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Stray Kids - SKZOO PuppyM Cushion </a> by <a href="https://sketchfab.com/ssejann?utm_medium=embed&utm_campaign=share-popup&utm_content=2e57e6986bf149fa93f89f7b6aa0e087" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> ssejann </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=2e57e6986bf149fa93f89f7b6aa0e087" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+            </div>
+
+            <!--Jeongin-->
+            <div id="IN" class="tab-content">
+                <h3>I.N</h3>
+                <div class="section2">
+                        <p>I.N is the maknae of Stray Kids, being born on February 8th, 2001, making him 24. He is a part of VocalRacha with Seungmin. A common nickname for him is "Maknae On Top", coming from his solo song with the same name. I.N, or Jeongin, wanted to be a priest when he was younger. He realized he wanted to be a singer when elders asked him to sing trot in front of them, which is when he realized he enjoyed being on stage and singing.</p>
+                        <img src="IN.jpg" alt="Picture of IN holding a FoxI.Ny" style="float: right; margin-left: 20px;">
+                </div>
+
+                <p>His SKZOO is FoxI.Ny, a fox</p>
+                <div class="sketchfab-embed-wrapper"> <iframe title="Stray Kids - SKZOO FoxI.Ny Cushion" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1510f2b46f0542f99163c44321e88f6e/embed?autospin=1&autostart=1"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/stray-kids-skzoo-foxiny-cushion-1510f2b46f0542f99163c44321e88f6e?utm_medium=embed&utm_campaign=share-popup&utm_content=1510f2b46f0542f99163c44321e88f6e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Stray Kids - SKZOO FoxI.Ny Cushion </a> by <a href="https://sketchfab.com/ssejann?utm_medium=embed&utm_campaign=share-popup&utm_content=1510f2b46f0542f99163c44321e88f6e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> ssejann </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=1510f2b46f0542f99163c44321e88f6e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+            </div>
+  
+        </div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Members</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="OT8.html">Members</a></li>
+                <li><a href="A+A.html">Awards and Acheivements</a></li>
+                <li><a href="STAYprofile.html">STAY Profile</a></li>
+            </ul>
+        </nav>
+
+        <h2>Awards and Accomplishments of Stray Kids</h2>
+        <br>
+        <p class="centre">This is a page of all awards Stray Kids has been nominated for, and also won. I will keep updating this as much as I can!</p>
+        <br><br>
+        <table class="AA-table" border="5" width="300" cellspacing="4" bordercolor="white">
+            <thead>
+                <!--2018-->
+                <tr>
+                    <td>Ceremony</td>
+                    <td>Award</td>
+                    <td>Year</td>
+                    <td>Received (album or artist)</td>
+                    <td>Result</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Asia Artist Awards</td>
+                    <td>Rookie of the year</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>The Fact Music Awards</td>
+                    <td>Next Leader Award</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Genie Music Awards</td>
+                    <td>Artist of the year</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Genie Music Awards</td>
+                    <td>Genie Music Popularity Award</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Genie Music Awards</td>
+                    <td>Male Rookie Award</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Korea Popular Music Awards</td>
+                    <td>Popularity Award</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Korea Popular Music Awards</td>
+                    <td>Rookie of the year</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Korean Brand of the Year Awards</td>
+                    <td>Male Rookie Idol of the Year</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>MAMA Awards</td>
+                    <td>Artist of the Year</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>MAMA Awards</td>
+                    <td>Best New Male Artist</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>MAMA Awards</td>
+                    <td>Mwave Global Fan's Choice</td>
+                    <td>2018</td>
+                    <td>"My Pace"</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Melon Music Award</td>
+                    <td>Best New Male Artist</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Soribada Best K-Music Awards</td>
+                    <td>New Hallyu Rookie Award</td>
+                    <td>2018</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <!--2019-->
+                <tr>
+                    <td>Asia Artist Awards</td>
+                    <td>Groove Award</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Asia Artist Awards</td>
+                    <td>Star15 Popularily Award</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Asia Model Awards</td>
+                    <td>New Star Award</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Circle Chart Music Awards</td>
+                    <td>New Artist of the Year</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>The Fact Music Awards</td>
+                    <td>Year Dance Performer</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Golden Disc Awards</td>
+                    <td>Best New Artist</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Golden Disc Awards</td>
+                    <td>Disc Bonsang</td>
+                    <td>2019</td>
+                    <td>I am WHO</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Korea First Brand Awards</td>
+                    <td>Male Rookie Idol Award</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Seoul Music Awards</td>
+                    <td>Rookie of the Year</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Seoul Music Awards</td>
+                    <td>Popularity Award</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Seoul Music Awards</td>
+                    <td>Hallyu Special Award</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Soompi Awards</td>
+                    <td>Breakout Artist</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Soompi Awards</td>
+                    <td>Rookie of the Year</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Soribada Music Awards</td>
+                    <td>Rising Hot Star Award</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>V Live Awards</td>
+                    <td>Global Artist Top 12</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>V Live Awards</td>
+                    <td>Global Rookie Top 5</td>
+                    <td>2019</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <!--2020-->
+                <tr>
+                    <td>Asia Artist Awards</td>
+                    <td>Best Music Video Award</td>
+                    <td>2020</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Circle Chart Music Awards</td>
+                    <td>Album of the Year - 1st Quarter</td>
+                    <td>2020</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Circle Chart Music Awards</td>
+                    <td>World Rookie of the Year</td>
+                    <td>2020</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Circle Chart Music Awards</td>
+                    <td>Global Hottest Award</td>
+                    <td>2020</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Genie Music Awards</td>
+                    <td>Artist of the Year</td>
+                    <td>2020</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Golden Disc Awards</td>
+                    <td>Disc Bonsang</td>
+                    <td>2020</td>
+                    <td>Cle: MIROH</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Golden Disc Awards</td>
+                    <td>Popularity Award</td>
+                    <td>2020</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>Korean Brand of the Year Awards</td>
+                    <td>Male Idol of the Year (Rising Star)</td>
+                    <td>2020</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+                <tr>
+                    <td>MTV Europe Music Awards</td>
+                    <td>Best Korean Act</td>
+                    <td>2020</td>
+                    <td>Stray Kids</td>
+                    <td>Won</td>
+                </tr>
+                <tr>
+                    <td>Seoul Music Awards</td>
+                    <td>Main Award (Bonsang)s</td>
+                    <td>2020</td>
+                    <td>Stray Kids</td>
+                    <td>Nominated</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Members</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="OT8.html">Members</a></li>
+                <li><a href="A+A.html">Awards and Acheivements</a></li>
+                <li><a href="STAYprofile.html">STAY Profile</a></li>
+            </ul>
+        </nav>
+
+        <!--Intro-->
+        <br>
+        <h2>This is for your personal STAY profile!</h2>
+        <br>
+        <p>Baby stays, OGs and everyone in between, welcome! This is a simple but fun form fo you to fill out!</p>
+        <br>
+
+        <!--Form-->
+        <h2>STAY profile</h2>
+        <br>
+        <div class="form-box">
+            <form class="form-centering">
+                <label for="Name">STAYs name:</label>
+                <input type="text" id="first name" name="first name" required>
+                <!--STAY start year-->
+                <br><br>
+                <p>What year did you become a stay?</p>
+                <label for="STAYyear" id="STAYyear"></label>
+                <select name="STAYyear" id="STAYyear">
+                    <option value="y1">Pre-debut</option>
+                    <option value="y2">2018</option>
+                    <option value="y3">2019</option>
+                    <option value="y4">2020</option>
+                    <option value="y5">2021</option>
+                    <option value="y6">2022</option>
+                    <option value="y7">2023</option>
+                    <option value="y8">2024</option>
+                    <option value="y9">2025</option>
+                    <option value="y10">2026</option>
+                </select>
+                <br><br>
+                <!--STAY first song-->
+                <label for="STAY start date">Do you remember your first song?</label>
+                <input type="text" id="first song" name="first song">
+                <br><br>
+
+                <!--Bias-->
+                <p><b>Who is your bias? (Multiple allowed)</b></p>
+                <input type="checkbox" name="type" id="option1" value="Chan">
+                <label for="option1">Bang Chan</label>
+                <input type="checkbox" name="type" id="option2" value="Lee Know">
+                <label for="option2">Lee Know</label>
+                <input type="checkbox" name="type" id="option3" value="Changbin">
+                <label for="option3">Changbin</label>
+                <input type="checkbox" name="type" id="option4" value="Hyunjin">
+                <label for="option4">Hyunjin</label>
+                <input type="checkbox" name="type" id="option5" value="Han">
+                <label for="option4">Han</label>
+                <input type="checkbox" name="type" id="option6" value="Felix">
+                <label for="option4">Felix</label>
+                <input type="checkbox" name="type" id="option7" value="Seungmin">
+                <label for="option4">Seungmin</label>
+                <input type="checkbox" name="type" id="option8" value="Jeongin">
+                <label for="option4">IN</label>
+                <input type="checkbox" name="type" id="option9" value="OT8">
+                <label for="option4">OT8</label>
+
+                <!--ERAS-->
+                <br>
+                <br>
+                <p>Please choose your favourite era</p>
+                <label for="era" id="era"></label>
+                <select name="era" id="era">
+                    <option value="Mixtape">Mixtape</option>
+                    <option value="I am NOT">I am NOT</option>
+                    <option value="I am WHO">I am WHO</option>
+                    <option value="I am YOU">I am YOU</option>
+                    <option value="MIROH">MIROH</option>
+                    <option value="Yellow Wood">Yellow Wood</option>
+                    <option value="LEVANTER">LEVANTER</option>
+                    <option value="SKZ2020">SKZ2020</option>
+                    <option value="TOP">TOP</option>
+                    <option value="GO生 (GO LIVE)">GO生 (GO LIVE)</option>
+                    <option value="IN生 (IN LIFE)">IN生 (IN LIFE)</option>
+                    <option value="ALL IN">ALL IN</option>
+                    <option value="NOEASY">NOEASY</option>
+                    <option value="ChristmasEveL">ChristmasEveL</option>
+                    <option value="SKZ2021">SKZ2021</option>
+                    <option value="ODDINARY">ODDINARY</option>
+                    <option value="CIRCUS">CIRCUS</option>
+                    <option value="MAXIDENT">MAXIDENT</option>
+                    <option value="SKZ-REPLAY">SKZ-REPLAY</option>
+                    <option value="THE SOUND">THE SOUND</option>
+                    <option value="★★★★★ (5-STAR)">★★★★★ (5-STAR)</option>
+                    <option value="Social Path">Social Path</option>
+                    <option value="樂-STAR (ROCKSTAR)">樂-STAR (ROCKSTAR)</option>
+                    <option value="Lose My Breath">Lose My Breath</option>
+                    <option value="ATE">ATE</option>
+                    <option value="GIANT">GIANT</option>
+                    <option value="合 (HOP)">合 (HOP)</option>
+                    <option value="Mixtape : dominATE">Mixtape : dominATE</option>
+                    <option value="Hollow">Hollow</option>
+                    <option value="KARMA">KARMA</option>
+                    <option value="Do It">Do It</option>
+                </select>
+                <br>
+                <input type="submit" name="submit" id="submit">
+                <input type="reset" name="reset" id="reset">
+            </form>
+        </div>
+    </body>
+
+</html>
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000000;
+    color: #ccc;
+
+}
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+.sun {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image: url(3D\ Sun.png);
+    background-size: 250px 250px;
+    position: absolute;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(Galaxy\ background.jpg);
+}
+
+.home {
+    left: 100px;
+    top: 100px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url(Home.png);
+    position: relative;
+    animation: home-orbit 10s linear infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.OT8 {
+    left: 80px;
+    top: 20px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url(OT8.png);
+    position: relative;
+    animation: home-orbit 9s linear infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.About {
+    left: 60px;
+    bottom: 50px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url(About.png);
+    position: relative;
+    animation: home-orbit 10.5s linear infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.AA {
+    left: 50px;
+    bottom: 130px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url(A+A.png);
+    position: relative;
+    animation: home-orbit 8.5s linear infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.StayProfile {
+    left: 40px;
+    bottom: 200px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url(STAYprofile.png);
+    position: relative;
+    animation: home-orbit 9.5s linear infinite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+}
+
+.summary {
+    text-align: center;
+    position: relative;
+}
+
+@keyframes home-orbit {
+
+    from {
+        transform: rotate(0deg) translateX(220px) rotate(0deg);
+
+    }
+
+    to {
+        transform: rotate(360deg) translateX(220px) rotate(-360deg);
+
+    }
+}
+
+
+/*Navigation bar*/
+nav {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    display: block;
+    color: #e10012;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #ffffff;
+}
+
+/*OT8 page*/
+
+/*Members*/
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #121212;
+  animation: fadeEffect 0.5s;
+}
+
+.tab-menu button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #ff5b69;
+}
+
+.tab-menu button.active {
+  background-color: #e10012; 
+  color: rgb(0, 0, 0);
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.section1 {
+    display: flex; 
+    align-items: center;
+    padding: 10px;
+}
+
+.section1 img {
+    width: 150px; 
+    height: 205px;
+    margin-right: 20px;
+}
+
+.section2 {
+    display: flex; 
+    align-items: center;
+    padding: 10px;
+}
+
+.section2 img {
+    width: 150px; 
+    height: 190px;
+    margin-right: 20px;
+}
+
+.section3 {
+    display: flex; 
+    align-items: center;
+    padding: 10px;
+}
+
+.section3 img {
+    width: 150px; 
+    height: 195px;
+    margin-right: 20px;
+}
+
+.heartimg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #e10012;
+    padding: 5px;
+
+}
+
+/*A+A page*/
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-spacing: 0 10px;
+}
+
+.centre {
+    text-align: center;
+}
+
+
+/*About page*/
+
+.about {
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    width: 70%;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centre1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*STAY profile*/
+
+.form-box {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #5d0000;
+    padding: 40px;
+    width: 70%;
+    flex-direction: column;
+}
+
+.form-centering {
+    display: flex;
+    flex-direction: column;
+}
+
